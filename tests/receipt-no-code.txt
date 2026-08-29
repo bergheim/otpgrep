@@ -1,0 +1,14 @@
+From: Domeneshop <kundeservice@domeneshop.no>
+To: user@example.com
+Subject: Kvittering for betalt faktura 1234567
+Date: Mon Jul 13 10:28:17 2026
+Attachments: Faktura 1234567.pdf
+
+Hei,
+
+Vedlagt er en faktura fra Domeneshop. Fakturaen er betalt, og du mottar denne eposten som en bekreftelse på at betalingen er registrert hos oss. Hvis du ønsker et skriftlig bilag til regnskap e.l., så ta en utskrift av denne eposten.
+
+
+Med vennlig hilsen
+
+Domeneshop

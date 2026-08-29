@@ -1,0 +1,43 @@
+From: noreply@hetzner.com
+To: user@example.com
+Subject: Your Hetzner Verification Code is 314159
+Date: Fri Aug 21 09:27:04 2026
+
+
+Your client number: K0000000000
+
+Dear Mr. Doe,
+
+To ensure that only you have access to your account, please enter the
+following verification code:
+
+*** 314159 ***
+
+If you did not try to log in to your Hetzner account,
+https://accounts.hetzner.com/password/update .
+
+To avoid receiving these messages in the future, we recommend enabling
+https://accounts.hetzner.com/tfa . For further details about this email,
+please refer to our
+https://docs.hetzner.com/accounts-panel/accounts/login-otp .
+
+Best regards
+
+Your Hetzner Online Team
+
+Hetzner Online GmbH
+Industriestr. 25
+91710 Gunzenhausen, Germany
+Tel.: +49 9831 505-0
+Fax: +49 9831 505-3
+info@hetzner.com
+www.hetzner.com
+
+CEO: Martin Hetzner,
+Stephan Konvickova, Günther Müller
+Ansbach registration office, HRB 6089
+VAT Reg. No. DE812871812
+
+For the purposes of this communication, we may save some of your
+personal data. For information on our data privacy policy, please see:
+https://www.hetzner.com/datenschutzhinweis

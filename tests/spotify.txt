@@ -1,0 +1,45 @@
+From: Spotify <no-reply@alerts.spotify.com>
+To: user@example.com
+Subject: 271828 - Your Spotify login code
+Date: Fri Aug 28 23:25:42 2026
+
+
+Hi,
+
+
+Enter this code to continue logging in without a password:
+
+
+271828
+
+
+This code is valid for 20 minutes and can only be used once. By entering this code, you will also confirm the email address associated with your account.
+
+
+If you didn't attempt to log in, you can safely ignore this email.
+
+
+Best regards,
+
+
+Spotify
+
+
+-------------
+
+Get Spotify for:
+  * iPhone (https://itunes.apple.com/app/spotify-music/id324684580)
+  * iPad (https://itunes.apple.com/app/spotify-music/id324684580)
+  * Android (https://play.google.com/store/apps/details?id=com.spotify.music)
+  * Other (https://www.spotify.com/download/)
+
+This message was sent to user@example.com.
+
+If you have questions or complaints, please contact us ( https://www.spotify.com/about-us/contact/ ).
+
+  * Terms of Use https://www.spotify.com/legal/end-user-agreement/
+  * Privacy Policy https://www.spotify.com/legal/privacy-policy/
+  * Contact Us https://www.spotify.com/about-us/contact/
+
+
+Spotify AB, Regeringsgatan 19, 111 53, Stockholm, Sweden

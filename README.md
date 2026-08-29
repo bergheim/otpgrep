@@ -23,5 +23,12 @@ Codes are never copied on arrival, only on an explicit action.
 
 ## Tests
 
-Fixtures are redacted, expired messages under `tests/`. Format is not settled
-yet.
+Fixtures live under `tests/`, one file per sender. Each is a real message that
+has been redacted: recipient, personal names, customer and invoice numbers are
+replaced, and every code is rewritten to a fake value.
+
+`tests/expected.tsv` maps a fixture to its expected result: either the code the
+extractor must print, or `FAIL` when it must exit non-zero.
+
+HTML-only mail (TikTok, OpenAI sign-in alerts) has no plain text part and is
+not represented yet.

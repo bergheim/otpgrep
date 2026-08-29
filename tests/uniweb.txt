@@ -1,0 +1,23 @@
+From: Uniweb Kundeservice <support@uniweb.no>
+To: user@example.com
+Subject: Bekreft innloggingen din på en ny enhet
+Date: Tue Aug 25 15:41:53 2026
+
+[oneHome](https://home.uniweb.no)
+
+Hei Ola Nordmann,
+
+oneHome ble åpnet fra en ukjent enhet. For å fortsette, vennligst bekreft at det er deg ved å angi sikkerhetskoden.
+
+Skriv inn følgende kode:
+
+**161803**
+
+Du trenger bare å gjøre dette én gang. Vi husker enheten din neste gang du logger inn på oneHome.
+
+Er det ikke du som logger inn på oneHome? Da bør du endre passordet ditt umiddelbart. Vi anbefaler også at du aktiverer tofaktorautentisering for et ekstra lag med sikkerhet.
+
+**Med vennlig hilsen,**
+    Uniweb
+
+© 2026 oneHome. All rights reserved.
