@@ -10,10 +10,17 @@ otpgrep < message.txt
 otpgrep < message.txt | wl-copy
 ```
 
-A candidate is 4-8 digits that no word character, hyphen or dot touches, so
-dates, phone numbers and ids embedded in longer tokens never qualify. The
+A candidate is 4-8 digits with no word character or hyphen beside it, and no
+digit across a dot, so dates, phone numbers, decimals and ids inside longer
+tokens never qualify. Timestamps next to a keyword are dropped as well. The
 candidate closest to a keyword wins; an exact tie between two different numbers
 is treated as ambiguous and fails.
+
+HTML input is stripped first, so a message with no plain text part works:
+
+```sh
+mu view "$file" | otpgrep || mu view --format html "$file" | otpgrep
+```
 
 Intended caller is a mako action on a login-code notification: read the
 notification body with `makoctl`, pipe it through `otpgrep`, copy the result.
@@ -47,9 +54,6 @@ replaced, and every code is rewritten to a fake value.
 
 `tests/expected.tsv` maps a fixture to its expected result: either the code the
 extractor must print, or `FAIL` when it must exit non-zero.
-
-HTML-only mail (TikTok, OpenAI sign-in alerts) has no plain text part and is
-not represented yet.
 
 ## License
 
