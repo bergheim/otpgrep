@@ -19,6 +19,11 @@ Intended caller is a mako action on a login-code notification: read the
 notification body with `makoctl`, pipe it through `otpgrep`, copy the result.
 Codes are never copied on arrival, only on an explicit action.
 
+```sh
+code=$(makoctl list -j | jq -r '.[0] | "\(.summary)\n\(.body)"' | otpgrep) &&
+    printf '%s' "$code" | wl-copy
+```
+
 ## Extraction rules
 
 - Require a keyword near the digits: code, otp, kode, engangskode.
@@ -45,3 +50,7 @@ extractor must print, or `FAIL` when it must exit non-zero.
 
 HTML-only mail (TikTok, OpenAI sign-in alerts) has no plain text part and is
 not represented yet.
+
+## License
+
+MIT
