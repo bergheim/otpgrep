@@ -10,6 +10,11 @@ otpgrep < message.txt
 otpgrep < message.txt | wl-copy
 ```
 
+A candidate is 4-8 digits that no word character, hyphen or dot touches, so
+dates, phone numbers and ids embedded in longer tokens never qualify. The
+candidate closest to a keyword wins; an exact tie between two different numbers
+is treated as ambiguous and fails.
+
 Intended caller is a mako action on a login-code notification: read the
 notification body with `makoctl`, pipe it through `otpgrep`, copy the result.
 Codes are never copied on arrival, only on an explicit action.
@@ -20,6 +25,14 @@ Codes are never copied on arrival, only on an explicit action.
 - Match 4-8 digits adjacent to that keyword.
 - Ignore amounts, discounts, dates, order ids and account numbers.
 - Fail rather than guess when more than one candidate matches.
+
+## Development
+
+```sh
+uv sync
+uv run pytest
+uv run ruff check .
+```
 
 ## Tests
 
